@@ -26,17 +26,21 @@ function Homepage() {
                     </div>
                     <div className={'intro-text-box'}>
                         <div>
-                            <p>Hi! I'm Katie. Thanks for visiting my website for my little band.</p>
+                            <p>Hi! I'm Katie. Thanks for visiting the website for my little band.</p>
                             <p>
                                 Pacing is a project where I get to try on a bunch of different characters and see what they have
-                                to say. Most of them are profane, self-obsessed, shameless unreliable narrators… I guess a
+                                to say. Most of them are profane, self-obsessed, shameless, unreliable narrators… I guess a
                                 little bit of the real me always manages to slip in.
                             </p>
                             <p>
-                                My partner Ben has gone out of his way to avoid being in my band, but unfortunately he’s really good at guitar and drums so he’s here to stay. Other talented friends who help often include Pete Coles (Ramoray, Longpond) and Logan Castro (the piano wizard).
+                                My partner Ben has gone out of his way to avoid being in my band, but unfortunately he’s
+                                really good at guitar and drums so he’s here to stay.
+                                Other talented friends who help often include Pete Coles (
+                                <a href={'https://open.spotify.com/artist/2pgt0Buc2ubqu1tAHINhnT?si=EENEHgAgTZ6D61ZQnEO-uA'}>Ramoray</a>, <a href={'https://open.spotify.com/artist/1CEAN9xMStUxiBFyH0N0Rj?si=vtzx8jT5TL25ze4Y23bKFw'}>Longpond</a>)
+                                and <a href={'https://www.logancastromusic.com/'} target="_blank">Logan Castro</a> (the piano wizard).
                             </p>
                             <p>
-                                I love to connect with other invisible internet musicians and collaborate remotely.
+                                I love to connect with other invisible internet musicians and collaborate remotely. Feel free to reach out!
                             </p>
                         </div>
                     </div>

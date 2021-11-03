@@ -24,10 +24,6 @@
 
   $padding: $padding-medium;
 
-  * {
-    display: flex;
-  }
-
   .intro-pic {
     display: flex;
     flex-grow: 1;
@@ -58,10 +54,15 @@
     flex-flow: column wrap;
     padding: $padding $padding $padding 0;
 
+    p {
+      margin-block-start: $padding-small;
+      margin-block-end: $padding-small;
+    }
+
     div {
       display: flex;
       flex-flow: column wrap;
-      padding: 5px 25px;
+      padding: $padding-medium $padding-large;
       background: $white;
       box-shadow: inset 0px 0px 0px 9px #22222287;
     }
