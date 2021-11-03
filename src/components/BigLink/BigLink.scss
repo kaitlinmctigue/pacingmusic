@@ -1,0 +1,27 @@
+@import "../../vars";
+
+.BigLink {
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  .big-icon {}
+
+  .icon-text {
+    margin-top: $padding-small;
+  }
+
+  &:hover {
+    .big-icon {
+      outline: 3px solid $brand-blue;
+      border-color: $brand-blue;
+    }
+    .icon-text {
+      color: $brand-blue;
+    }
+  }
+}

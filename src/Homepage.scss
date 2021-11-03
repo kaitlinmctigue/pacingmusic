@@ -8,7 +8,11 @@
   align-items: stretch;
   align-self: center;
   width: 100%;
-  padding: 25px 0;
+  padding: $padding-large 0;
+
+  .WindowBlock {
+    margin-bottom: $padding-large;
+  }
 }
 
 .intro {
@@ -18,7 +22,7 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  $padding: 20px;
+  $padding: $padding-medium;
 
   * {
     display: flex;

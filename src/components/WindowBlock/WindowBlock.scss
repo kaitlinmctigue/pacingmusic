@@ -20,6 +20,12 @@
     h1 {
       font-size: 1.3em;
       margin: 0;
+      display: inline-block;
+    }
+
+    &__icons {
+      float: right;
+      height: 20px;
     }
   }
 
