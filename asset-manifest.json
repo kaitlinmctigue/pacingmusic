@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pacingmusic/static/css/main.b4b8f44d.chunk.css",
+    "main.css": "/pacingmusic/static/css/main.35a0bbaa.chunk.css",
     "main.js": "/pacingmusic/static/js/main.6770fa62.chunk.js",
     "main.js.map": "/pacingmusic/static/js/main.6770fa62.chunk.js.map",
     "runtime-main.js": "/pacingmusic/static/js/runtime-main.f6390036.js",
@@ -10,7 +10,7 @@
     "static/js/3.06d79127.chunk.js": "/pacingmusic/static/js/3.06d79127.chunk.js",
     "static/js/3.06d79127.chunk.js.map": "/pacingmusic/static/js/3.06d79127.chunk.js.map",
     "index.html": "/pacingmusic/index.html",
-    "static/css/main.b4b8f44d.chunk.css.map": "/pacingmusic/static/css/main.b4b8f44d.chunk.css.map",
+    "static/css/main.35a0bbaa.chunk.css.map": "/pacingmusic/static/css/main.35a0bbaa.chunk.css.map",
     "static/js/2.94d236ca.chunk.js.LICENSE.txt": "/pacingmusic/static/js/2.94d236ca.chunk.js.LICENSE.txt",
     "static/media/apple.fab06672.png": "/pacingmusic/static/media/apple.fab06672.png",
     "static/media/bandcamp.effc70e7.png": "/pacingmusic/static/media/bandcamp.effc70e7.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.f6390036.js",
     "static/js/2.94d236ca.chunk.js",
-    "static/css/main.b4b8f44d.chunk.css",
+    "static/css/main.35a0bbaa.chunk.css",
     "static/js/main.6770fa62.chunk.js"
   ]
 }
