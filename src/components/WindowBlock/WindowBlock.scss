@@ -1,10 +1,18 @@
 @import "../../vars";
 
+@mixin color($color) {
+  .WindowBlock__header {
+    background: $color;
+  }
+  .WindowBlock__body {
+    border-color: $color;
+  }
+}
+
 .WindowBlock {
   text-align: left;
 
   &__header {
-    background: $brand-primary;
     color: $text-headers;
     font-family: $font-headers;
     padding: 10px 10px 0 15px;
@@ -17,8 +25,21 @@
 
   &__body {
     background: $window-bg;
-    border: 10px solid $brand-primary;
+    border: 10px solid;
     font-family: $font-body;
     font-weight: normal;
   }
+
+  &.purple {
+    @include color($brand-primary);
+  }
+
+  &.blue {
+    @include color($brand-blue);
+  }
+
+  &.green {
+    @include color($brand-green);
+  }
 }
+

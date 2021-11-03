@@ -18,7 +18,7 @@ import './WindowBlock.scss';
 class WindowBlock extends Component {
     render() {
         return (
-            <div className="WindowBlock">
+            <div className={'WindowBlock' + ' ' + this.props.color}>
                 <div className="WindowBlock__header">
                     <h1>
                         {this.props.header}
@@ -33,11 +33,13 @@ class WindowBlock extends Component {
 }
 
 WindowBlock.propTypes = {
-    header: PropTypes.string
+    header: PropTypes.string,
+    color: PropTypes.string
 };
 
 WindowBlock.defaultProps = {
-    header: 'Header'
+    header: 'Header',
+    color: 'purple'
 };
 
 export default WindowBlock;
