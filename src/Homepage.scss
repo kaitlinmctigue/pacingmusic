@@ -1,0 +1,12 @@
+@import "vars";
+
+.Homepage {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  align-self: center;
+  width: 100%;
+  padding: 25px 0;
+}

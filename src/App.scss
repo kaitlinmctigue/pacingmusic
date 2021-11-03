@@ -1,0 +1,65 @@
+@import "vars";
+
+.App {
+  text-align: center;
+  background: $black;
+  height: 100vh;
+  background-image: url("./pattern.png");
+  background-repeat: repeat;
+  background-size: 50%;
+  background-position: 50px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: $bg-app-header;
+  min-height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  font-size: 16px;
+  color: $text-body;
+  font-family: $font-headers;
+  font-weight: bold;
+  padding: 0 20px;
+
+  .header-item {
+    margin-right: 20px;
+    align-self: center;
+  }
+}
+
+.App-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-size: 16px;
+  color: $text-body;
+  font-family: $font-headers;
+  font-weight: bold;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

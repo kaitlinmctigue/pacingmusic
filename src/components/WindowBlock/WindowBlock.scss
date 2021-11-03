@@ -1,0 +1,24 @@
+@import "../../vars";
+
+.WindowBlock {
+  text-align: left;
+
+  &__header {
+    background: $brand-primary;
+    color: $text-headers;
+    font-family: $font-headers;
+    padding: 10px 10px 0 15px;
+
+    h1 {
+      font-size: 1.3em;
+      margin: 0;
+    }
+  }
+
+  &__body {
+    background: $window-bg;
+    border: 10px solid $brand-primary;
+    font-family: $font-body;
+    font-weight: normal;
+  }
+}
