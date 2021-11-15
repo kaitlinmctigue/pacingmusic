@@ -2,9 +2,22 @@
 
 .DesktopDecor {
 
+  $top: 80px;
+  $spacer: 200px;
+
   #icon-1 {
     left: 3%;
-    top: 80px;
+    top: $top;
+  }
+
+  #icon-2 {
+    left: 10%;
+    top: $top + $spacer;
+  }
+
+  #icon-3 {
+    left: 6%;
+    top: $top + ($spacer * 2);
   }
 
 }
