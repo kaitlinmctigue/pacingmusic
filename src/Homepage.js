@@ -85,6 +85,7 @@ function Homepage() {
                 </div>
             </WindowBlock>
 
+            {/*Footer*/}
             <div className="footer">
                 <p>© {new Date().getFullYear()} Pacing Music</p>
             </div>

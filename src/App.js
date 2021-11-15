@@ -1,5 +1,6 @@
 import './App.scss';
 import Homepage from "./Homepage";
+import DesktopDecor from "./components/DesktopDecor/DesktopDecor";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
           <span className={"header-item"}>hello world</span>
       </header>
         <div className={'App-body'}>
-            <Homepage />
+            <Homepage/>
+            <DesktopDecor/>
         </div>
     </div>
   );
