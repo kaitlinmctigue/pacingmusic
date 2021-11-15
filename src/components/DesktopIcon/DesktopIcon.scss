@@ -17,7 +17,7 @@ $bg: transparentize($white, .2);
 
   &__img {
     img {
-      outline: 4px solid $bg;
+      outline: $border-chunky solid $bg;
       background: $bg;
       width: $size;
       height: auto;
@@ -26,7 +26,7 @@ $bg: transparentize($white, .2);
 
   &__name {
     color: $text-headers;
-    font-size: 12px;
+    font-size: $font-size-icons;
     margin: $padding-small 0;
   }
 
