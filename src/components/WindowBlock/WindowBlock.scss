@@ -11,6 +11,7 @@
 
 .WindowBlock {
   text-align: left;
+  padding: 0 $padding-medium;
 
   &__header {
     color: $text-headers;

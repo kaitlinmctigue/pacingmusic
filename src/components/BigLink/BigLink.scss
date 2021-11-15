@@ -24,4 +24,8 @@
       color: $brand-blue;
     }
   }
+
+  @include mobile() {
+    padding: $padding-small 0;
+  }
 }
