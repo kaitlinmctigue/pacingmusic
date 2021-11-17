@@ -1,8 +1,13 @@
 import './App.scss';
 import Homepage from "./Homepage";
 import DesktopDecor from "./components/DesktopDecor/DesktopDecor";
+import ReactGA from 'react-ga';
 
 function App() {
+
+    const TRACKING_ID = "G-G9TRLP72XN";
+    ReactGA.initialize(TRACKING_ID);
+
   return (
     <div className="App">
       <header className="App-header">
