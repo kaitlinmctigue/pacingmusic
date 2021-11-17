@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/pacingmusic/static/css/main.589c1215.chunk.css",
-    "main.js": "/pacingmusic/static/js/main.8ade9b3c.chunk.js",
-    "main.js.map": "/pacingmusic/static/js/main.8ade9b3c.chunk.js.map",
-    "runtime-main.js": "/pacingmusic/static/js/runtime-main.ed627522.js",
-    "runtime-main.js.map": "/pacingmusic/static/js/runtime-main.ed627522.js.map",
-    "static/js/2.94d236ca.chunk.js": "/pacingmusic/static/js/2.94d236ca.chunk.js",
-    "static/js/2.94d236ca.chunk.js.map": "/pacingmusic/static/js/2.94d236ca.chunk.js.map",
-    "static/js/3.cdb2e425.chunk.js": "/pacingmusic/static/js/3.cdb2e425.chunk.js",
-    "static/js/3.cdb2e425.chunk.js.map": "/pacingmusic/static/js/3.cdb2e425.chunk.js.map",
+    "main.js": "/pacingmusic/static/js/main.a4d7bce5.chunk.js",
+    "main.js.map": "/pacingmusic/static/js/main.a4d7bce5.chunk.js.map",
+    "runtime-main.js": "/pacingmusic/static/js/runtime-main.b170cac3.js",
+    "runtime-main.js.map": "/pacingmusic/static/js/runtime-main.b170cac3.js.map",
+    "static/js/2.8ef443c7.chunk.js": "/pacingmusic/static/js/2.8ef443c7.chunk.js",
+    "static/js/2.8ef443c7.chunk.js.map": "/pacingmusic/static/js/2.8ef443c7.chunk.js.map",
+    "static/js/3.e6181b22.chunk.js": "/pacingmusic/static/js/3.e6181b22.chunk.js",
+    "static/js/3.e6181b22.chunk.js.map": "/pacingmusic/static/js/3.e6181b22.chunk.js.map",
     "index.html": "/pacingmusic/index.html",
     "static/css/main.589c1215.chunk.css.map": "/pacingmusic/static/css/main.589c1215.chunk.css.map",
-    "static/js/2.94d236ca.chunk.js.LICENSE.txt": "/pacingmusic/static/js/2.94d236ca.chunk.js.LICENSE.txt",
+    "static/js/2.8ef443c7.chunk.js.LICENSE.txt": "/pacingmusic/static/js/2.8ef443c7.chunk.js.LICENSE.txt",
     "static/media/apple.fab06672.png": "/pacingmusic/static/media/apple.fab06672.png",
     "static/media/bandcamp.effc70e7.png": "/pacingmusic/static/media/bandcamp.effc70e7.png",
     "static/media/bird.a54d636e.png": "/pacingmusic/static/media/bird.a54d636e.png",
@@ -31,9 +31,9 @@
     "static/media/youtube.c17c6e8b.png": "/pacingmusic/static/media/youtube.c17c6e8b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed627522.js",
-    "static/js/2.94d236ca.chunk.js",
+    "static/js/runtime-main.b170cac3.js",
+    "static/js/2.8ef443c7.chunk.js",
     "static/css/main.589c1215.chunk.css",
-    "static/js/main.8ade9b3c.chunk.js"
+    "static/js/main.a4d7bce5.chunk.js"
   ]
 }
